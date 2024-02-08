@@ -1,7 +1,11 @@
 {
   "name": "vanilla-basic",
   "version": "1.0.0",
-  "scripts": { 
+  "scripts": {
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
+  },
+  "dependencies": {
+    "@azure/static-web-apps-cli": "^1.1.6",
+    "npm": "^8.11.0"
   }
 }
