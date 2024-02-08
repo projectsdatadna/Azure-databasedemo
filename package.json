@@ -7,5 +7,8 @@
   "dependencies": {
     "@azure/static-web-apps-cli": "^1.1.6",
     "npm": "^8.11.0"
-  }
+  },
+  "engines": {
+     "node": ">=16.0.0 <18"
+ }
 }
